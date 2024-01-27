@@ -26,6 +26,6 @@ jobs:
         version: 8
         run_install: true
     - name: deploy
-      run: pnpm deploy
+      run: pnpm run deploy
       env:
         CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
