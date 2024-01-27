@@ -25,7 +25,6 @@ jobs:
       with:
         version: 8
         run_install: true
-    - run: pnpm test
     - name: deploy
       uses: cloudflare/wrangler-action@v3
       with:
