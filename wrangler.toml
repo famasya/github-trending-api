@@ -1,5 +1,6 @@
 name = "github-trending-api"
 compatibility_date = "2023-12-01"
+account_id = "da23bceae8b9fb7c9c9e90a54cde3e9e"
 
 # [vars]
 # MY_VARIABLE = "production_value"
